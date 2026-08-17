@@ -1,0 +1,6 @@
+# 挂载示例：把本插件插入 DSH profile 的 cordis 装配
+# 整段追加到 ~/.dsh/profiles/<profile>/cordis.patch.yml
+# （若文件已有同名条目则无需重复添加）
+- insert:
+    - id: chatgpt-desktop-theme
+      name: dsh-chatgpt-desktop
