@@ -1,0 +1,30 @@
+{
+  "name": "dsh-chatgpt-desktop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ChatGPT-desktop-style visual overlay for DeepSeek Harness (DSH): beige sidebar, three disguised models, six-level effort slider, and the Sol-exclusive Liang skin.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "inject": [],
+      "immediately": true
+    }
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "chatgpt",
+    "theme",
+    "skin"
+  ],
+  "author": "jjy114514",
+  "license": "MIT"
+}
